@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUpPage</title>
+    <link rel="stylesheet" href="SignUp.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <h4> Please inter your name, email and password:</h4>
+    
+    <form action="WelcomePage.html" method="get">
+        
+      <div class="name_email_pass">
+        <img src="pics/person.png" width="30px">
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Ali">
+        <label for="lastname">Name</label>
+        <input id="lastname" type="text" placeholder="Ghaneian">
+        <p></p>
+        <img src="pics/gender.jpg" width="30px">
+        <label for="gender">Sexulity</label>
+        <select id="gender" >
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+        </select>
+        <p></p>
+        <img src="pics/email.png" width="30px" >
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email@service.com" required>
+        <p></p>
+        <img src="pics/password.png" width="30px">
+        <label for="pass">password</label>
+        <input id="pass" type="password" required>
+      </div>
+
+      <div class="yes_no">
+        <p></p>
+        <h5>Do you want recieve our new products in your email?</h5>
+
+        <label for="yes">Of Course! Please! </label>
+        <input type="radio" name="rem" value="yes">
+        <p></p>
+        <label for="No">Not At All!Noapp!:</label>
+        <input type="radio" name="rem" value="No">
+      </div>
+
+        <p></p>
+        <input id="sub" type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
