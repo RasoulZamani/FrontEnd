@@ -1,6 +1,8 @@
 body{
     background-color:pink ;
+    font-size: 11px;
     text-align: center;
+
 }
 
 .name_email_pass{
@@ -8,10 +10,11 @@ body{
     font-size:1.25em ;
     font-weight: bold;
     border: 5px solid rgb(255, 0, 225) ;
-    margin-left: 20px ;
+    
+    
     padding: 10px ;
     text-align: left;
-
+    
     
 }
 
