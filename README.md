@@ -1,7 +1,7 @@
 
 # FrontEnd Simple Project by HTML and CSS
 
-![page](pics\SignUp.PNG)
+![page](pics/SignUp.png)
 
 It is a simple sign up project that gets information like name,email and password from user, and then direct it ti welcome page.
 
